@@ -18,13 +18,13 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
-        - name: Hello
+        - name: Hello World 1
           run: echo "Hello World 1"
           shell: bash
     hello2:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
-        - name: Hello2
+        - name: Hello World 2
           run: echo "Hello World 2"
           shell: bash
